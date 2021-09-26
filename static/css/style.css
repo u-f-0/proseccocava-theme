@@ -38,7 +38,7 @@ p, a {
     height: auto;
     background: #D0D0CE;
     text-align:center;
-    padding: 2rem;
+    padding: 2rem 0;
     overflow: auto;
 }
 
