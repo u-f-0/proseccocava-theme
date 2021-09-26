@@ -1,0 +1,101 @@
+body {
+    background: #6ECEB2;
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    color: #00263A;
+}
+
+h3 {
+    padding: 5px;
+    margin: 0;
+}
+
+p, a {
+    text-decoration: none;
+    color: white;
+    padding: 0;
+    margin: 5px;
+}
+
+#header {
+    background: #6ECEB2;
+    height: 50rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  /* Centering y-axis */
+    align-items :center; /* Centering x-axis */;
+}
+
+.headerLogo {
+    width: 20rem;
+}
+
+#main {
+    height: auto;
+    background: #D0D0CE;
+    text-align:center;
+    padding: 2rem;
+    overflow: auto;
+}
+
+#food {
+    width: 50%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  /* Centering y-axis */
+    align-items :center; /* Centering x-axis */;
+}
+
+#drinks {
+    width: 50%;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  /* Centering y-axis */
+    align-items :center; /* Centering x-axis */;
+}
+
+.drinkMenu {
+    padding-top: 2rem;
+    width: 90%;
+}
+
+.foodMenu {
+    padding-top: 2rem;
+    width: 90%;
+}
+
+@media only screen and (max-width: 1000px) {
+    #drinks, #food {
+      width: 100%;
+    }
+  }
+
+#footer {
+    margin-top: -1rem;
+    color: white;
+    height: 35rem;
+    width: 100%;
+    background: #FF6D6A;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;  /* Centering y-axis */
+    align-items :center; /* Centering x-axis */;
+}
+
+.findIcon {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.socials {
+    display: inline-block;
+    font-weight: bold;
+}
+
