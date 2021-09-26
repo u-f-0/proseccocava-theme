@@ -23,7 +23,7 @@ p, a {
 
 #header {
     background: #6ECEB2;
-    height: 50rem;
+    height: 45rem;
     display: flex;
     flex-direction: column;
     justify-content: center;  /* Centering y-axis */
