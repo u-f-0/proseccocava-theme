@@ -58,6 +58,7 @@ p, a {
 
 #food {
     width: 70%;
+    max-width: 100rem;
     justify-content: center;  /* Centering y-axis */
     align-items: center; /* Centering x-axis */;
     margin: auto;
