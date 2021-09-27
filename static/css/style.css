@@ -34,6 +34,20 @@ p, a {
     width: 20rem;
 }
 
+@media only screen and (max-width: 1000px) {
+    #header {
+      height: 25rem;
+    }
+
+    .headerLogo {
+        width: 10rem;
+    }
+
+    .findIcon {
+        width: 5%;
+    }
+}
+
 #main {
     height: auto;
     background: #D0D0CE;
@@ -43,12 +57,10 @@ p, a {
 }
 
 #food {
-    width: 50%;
-    float: left;
-    display: flex;
-    flex-direction: column;
+    width: 70%;
     justify-content: center;  /* Centering y-axis */
-    align-items :center; /* Centering x-axis */;
+    align-items: center; /* Centering x-axis */;
+    margin: auto;
 }
 
 #drinks {
@@ -66,15 +78,9 @@ p, a {
 }
 
 .foodMenu {
-    padding-top: 2rem;
+    padding-top: 4rem;
     width: 90%;
 }
-
-@media only screen and (max-width: 1000px) {
-    #drinks, #food {
-      width: 100%;
-    }
-  }
 
 #footer {
     margin-top: -1rem;
@@ -92,6 +98,20 @@ p, a {
 .findIcon {
     width: 30%;
     margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 1000px) {
+    #food {
+        width: 100%;
+    }
+
+    #footer {
+        height: 30rem;
+    }
+
+    .findIcon {
+        width: 20%;
+    }
 }
 
 .socials {
