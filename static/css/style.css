@@ -105,8 +105,13 @@ p, a {
         width: 100%;
     }
 
+    .foodMenu {
+        padding-top: 2rem;
+    }
+
     #footer {
         height: 30rem;
+        font-size: 12px;
     }
 
     .findIcon {
