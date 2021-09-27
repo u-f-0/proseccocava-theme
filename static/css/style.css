@@ -100,7 +100,7 @@ p, a {
     margin-bottom: 20px;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1400px) {
     #food {
         width: 100%;
     }
